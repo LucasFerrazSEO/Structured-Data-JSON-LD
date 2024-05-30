@@ -1,0 +1,106 @@
+{
+	"@context": "http://www.schema.org",
+	"@type": ["Organization", "LocalBusiness"],
+	"@id": "#LocalBusiness",
+	"image": "https://YOUTIMAGE.com/LOGO.jpg",
+	"name": "YOURCOMPANYNAME",
+	"legalName" : "YOUR COMPANY NAME",
+	"alternateName": "ALTERNATE COMPANY NAME",
+	"url": "https://YOURURL.com",
+	"mainEntityOfPage": {
+		"@type": "WebPage",
+		"@id": "https://YOURURL.com"
+	},
+	"logo": "https://YOUTIMAGE.com/LOGO.jpg",
+	"telephone": "111-111-1111",
+	"description": "YOUR BUSINESS DESCRIPTION",
+	"priceRange": "$$",
+	"openingHours": "Mo,Tu,We,Th,Fr 09:00-17:00",
+	"paymentAccepted":"Visa, Master Card, Discover, Amex, ApplePay, AndroidPay, Bitcoin",
+	"address": {
+		"@type": "PostalAddress",
+		"addressLocality": "STATE",
+		"addressRegion": "CITY",
+		"postalCode":"POSTAL CODE",
+		"streetAddress": "STREET AND NUMBER"
+	},
+	"geo": {
+		"@type": "GeoCoordinates",
+		"latitude": "LATITUDE",
+		"longitude": "LONGITUDE"
+	},
+	"contactPoint": [
+		{ 
+			"@type": "ContactPoint",
+			"telephone": "+55-111-111-1111",
+			"contactType": "customer service",
+			"email": "YOUR@EMAIL.com",
+			"areaServed": [
+				"BR",
+				"US",
+				"MX"
+			],
+			"availableLanguage": [
+				"Portuguese",
+				"English"
+			]
+		}
+	],
+	"sameAs": [
+		"http://www.facebook.com/PROFILE",
+		"http://x.com/PROFILE",
+		"http://pinterest.com/PROFILE/",
+		"http://PROFILE.tumblr.com/",
+		"http://www.linkedin.com/company/PROFILE"
+	],
+	"makesOffer":[
+		{
+			"@type":"Offer",
+			"itemOffered":
+				{
+					"@type":"Service",
+					"name":"Service name",
+					"url":"https://DOMAIN.com/SERVICEPAGE"
+				}
+			},
+			{
+				"@type":"Offer",
+				"itemOffered":
+				{
+					"@type":"Service",
+					"name":"Another Service name",
+					"url":"https://DOMAIN.com/SERVICEPAGE"
+				}
+			}
+	],
+	"location": [
+		{
+			"@type": "PostalAddress",
+			"telephone": "+1111111111",
+			"streetAddress": "STREET AND NUMBER",
+			"addressLocality": "CITY",
+			"addressRegion": "STATE",
+			"addressCountry": "COUNTRY",
+			"postalCode": "POSTALCODE",
+			"serviceArea":
+				[
+					{
+						"@type": "postalAddress",
+						"addressLocality":"CITY",
+						"addressRegion": "STATE"
+					},
+					{
+						"@type": "postalAddress",
+						"addressLocality":"CITY",
+						"addressRegion": "STATE"
+					},
+					{
+						"@type": "postalAddress",
+						"addressLocality":"CITY",
+						"addressRegion": "STATE"
+					}
+				]
+		}
+	],
+	"foundingDate": "YEAR"
+}
