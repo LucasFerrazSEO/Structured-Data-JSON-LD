@@ -3,7 +3,7 @@
 	"@type": ["Organization", "LocalBusiness"],
 	"@id": "#LocalBusiness",
 	"image": "https://YOUTIMAGE.com/LOGO.jpg",
-	"name": "YOURCOMPANYNAME",
+	"name": "YOUR COMPANY NAME",
 	"legalName" : "YOUR COMPANY NAME",
 	"alternateName": "ALTERNATE COMPANY NAME",
 	"url": "https://YOURURL.com",
